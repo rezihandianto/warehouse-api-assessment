@@ -1,0 +1,33 @@
+# Build output
+target/
+out/
+build/
+*.class
+*.jar
+*.war
+!.mvn/wrapper/maven-wrapper.jar
+
+# IDE
+.idea/
+*.iml
+*.iws
+.vscode/
+.classpath
+.project
+.settings/
+.factorypath
+.sts4/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+logs/
+
+# Secrets and local overrides (never commit credentials)
+.env
+.env.*
+application-local.properties
+application-local.yml
